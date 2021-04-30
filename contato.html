@@ -18,6 +18,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
+        <script src="script.js"></script>
 </head>
 <body id="top">
     <header id="home">
@@ -50,9 +51,11 @@
     <div class="form-group">
         <label for="exampleFormControlTextarea1">Digite a sua mensagem:</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        <button type="button" class="btn btn-primary">Enviar</button>
+        <button onclick="alertaEnviar()" id="enviar" type="button" class="btn btn-primary">Enviar</button>
       </div>
     </form>
     <a href="index.html">Voltar para a página inicial</a>
 </body>
+
+
 </html>
