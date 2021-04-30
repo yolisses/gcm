@@ -583,6 +583,13 @@ Hero
 	background: var(--main-color);
 	color: #fff;
 }
+
+.black-alpha {
+	background-color: #000000e1;
+	color: #fff;
+	padding: 10px 10px;
+	text-align: right;
+}
 /* ==========================================================================
 Intro
 ========================================================================== */
