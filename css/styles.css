@@ -1,3 +1,7 @@
+:root {
+	--main-color: rgb(179, 94, 174);
+}
+
 /* ! normalize.css v1.0.0 | MIT License | git.io/normalize */
 
 /* ==========================================================================
@@ -347,7 +351,7 @@ a {
 }
 a:hover,
 a:focus {
-	color: rgb(179, 94, 174);
+	color: var(--main-color);
 	text-decoration: none;
 }
 p {
@@ -393,9 +397,9 @@ h2::after {
 }
 .light-box:hover,
 .light-box:focus {
-	-webkit-box-shadow: 0px 3px 0px 0px rgb(179, 94, 174);
-	-moz-box-shadow: 0px 3px 0px 0px rgb(179, 94, 174);
-	box-shadow: 0px 3px 0px 0px rgb(179, 94, 174);
+	-webkit-box-shadow: 0px 3px 0px 0px var(--main-color);
+	-moz-box-shadow: 0px 3px 0px 0px var(--main-color);
+	box-shadow: 0px 3px 0px 0px var(--main-color);
 }
 .box-hover {
 	transition: all 500ms ease-in-out;
@@ -422,7 +426,7 @@ h2::after {
 Navigation
 ========================================================================== */
 nav {
-	background-color: rgb(179, 94, 174);
+	background-color: var(--main-color);
 	margin-top: -1px;
 }
 nav ul {
@@ -544,7 +548,7 @@ Hero
 	letter-spacing: 12px;
 	margin: 10px;
 	color: #fff;
-	background-color: rgb(179, 94, 174);
+	background-color: var(--main-color);
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
@@ -558,7 +562,7 @@ Hero
 	letter-spacing: 1px;
 }
 .learn-more-btn {
-	background: rgb(179, 94, 174);
+	background: var(--main-color);
 	padding: 20px 40px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -568,15 +572,15 @@ Hero
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	display: inline-block;
-	-webkit-box-shadow: 0px 3px 0px 0px rgb(179, 94, 174);
-	-moz-box-shadow: 0px 3px 0px 0px rgb(179, 94, 174);
-	box-shadow: 0px 3px 0px 0px rgb(179, 94, 174);
+	-webkit-box-shadow: 0px 3px 0px 0px var(--main-color);
+	-moz-box-shadow: 0px 3px 0px 0px var(--main-color);
+	box-shadow: 0px 3px 0px 0px var(--main-color);
 	margin: 60px 0 0;
 	font-weight: bold;
 }
 .learn-more-btn:hover,
 .learn-more-btn:focus {
-	background: rgb(179, 94, 174);
+	background: var(--main-color);
 	color: #fff;
 }
 /* ==========================================================================
@@ -605,28 +609,28 @@ Features
 	margin: 70px 0 0;
 }
 .shadow {
-	text-shadow: rgb(179, 94, 174) 1px 1px, rgb(179, 94, 174) 2px 2px,
-		rgb(179, 94, 174) 3px 3px, rgb(179, 94, 174) 4px 4px,
-		rgb(179, 94, 174) 5px 5px, rgb(179, 94, 174) 6px 6px,
-		rgb(179, 94, 174) 7px 7px, rgb(179, 94, 174) 8px 8px,
-		rgb(179, 94, 174) 9px 9px, rgb(179, 94, 174) 10px 10px,
-		rgb(179, 94, 174) 11px 11px, rgb(179, 94, 174) 12px 12px,
-		rgb(179, 94, 174) 13px 13px, rgb(179, 94, 174) 14px 14px,
-		rgb(179, 94, 174) 15px 15px, rgb(179, 94, 174) 16px 16px,
-		rgb(179, 94, 174) 17px 17px, rgb(179, 94, 174) 18px 18px,
-		rgb(179, 94, 174) 19px 19px, rgb(179, 94, 174) 20px 20px,
-		rgb(179, 94, 174) 21px 21px, rgb(179, 94, 174) 22px 22px,
-		rgb(179, 94, 174) 23px 23px, rgb(179, 94, 174) 24px 24px,
-		rgb(179, 94, 174) 25px 25px, rgb(179, 94, 174) 26px 26px,
-		rgb(179, 94, 174) 27px 27px, rgb(179, 94, 174) 28px 28px,
-		rgb(179, 94, 174) 29px 29px, rgb(179, 94, 174) 30px 30px;
+	text-shadow: rgba(0, 0, 0, 0.404) 2px 2px, var(--main-color) 2px 2px;
+	/* var(--main-color) 3px 3px, var(--main-color) 4px 4px,
+		var(--main-color) 5px 5px, var(--main-color) 6px 6px,
+		var(--main-color) 7px 7px, var(--main-color) 8px 8px,
+		var(--main-color) 9px 9px, var(--main-color) 10px 10px,
+		var(--main-color) 11px 11px, var(--main-color) 12px 12px,
+		var(--main-color) 13px 13px, var(--main-color) 14px 14px,
+		var(--main-color) 15px 15px, var(--main-color) 16px 16px,
+		var(--main-color) 17px 17px, var(--main-color) 18px 18px,
+		var(--main-color) 19px 19px, var(--main-color) 20px 20px,
+		var(--main-color) 21px 21px, var(--main-color) 22px 22px,
+		var(--main-color) 23px 23px, var(--main-color) 24px 24px,
+		var(--main-color) 25px 25px, var(--main-color) 26px 26px,
+		var(--main-color) 27px 27px, var(--main-color) 28px 28px,
+		var(--main-color) 29px 29px, var(--main-color) 30px 30px; */
 }
 .icon {
 	height: 175px;
 	width: 175px;
 	line-height: 175px;
 	max-width: 100%;
-	background: rgb(179, 94, 174);
+	background: var(--main-color);
 	border-radius: 50%;
 	-o-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -693,7 +697,7 @@ Swag
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-o-border-radius: 50%;
-	background: rgb(179, 94, 174);
+	background: var(--main-color);
 	display: inline-block;
 	margin: 10px auto 20px;
 	color: #fff;
@@ -704,7 +708,7 @@ Swag
 .down-arrow-btn:hover,
 .down-arrow-btn:focus {
 	color: #fff;
-	background: rgb(179, 94, 174);
+	background: var(--main-color);
 }
 /* ==========================================================================
 Portfolio
@@ -738,7 +742,7 @@ Portfolio
 	display: block;
 	position: absolute;
 	z-index: 20;
-	background: rgb(179, 94, 174);
+	background: var(--main-color);
 	overflow: hidden;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
@@ -853,8 +857,8 @@ Subscribe
 	color: #fff;
 }
 .subscribe input[type='submit'] {
-	background: rgb(179, 94, 174);
-	border: solid 1px rgb(179, 94, 174);
+	background: var(--main-color);
+	border: solid 1px var(--main-color);
 	padding: 20px;
 	color: #fff;
 	text-transform: uppercase;
@@ -865,15 +869,15 @@ Subscribe
 	-o-transition: all 0.5s ease;
 }
 .subscribe input[type='submit']:hover {
-	background: rgb(179, 94, 174);
-	border: solid 1px rgb(179, 94, 174);
+	background: var(--main-color);
+	border: solid 1px var(--main-color);
 	color: #fff;
 }
 /* ==========================================================================
 CTA
 ========================================================================== */
 .ignite-cta {
-	background-color: rgb(179, 94, 174);
+	background-color: var(--main-color);
 	padding: 70px 0;
 }
 .ignite-btn {
@@ -887,8 +891,8 @@ CTA
 }
 .ignite-btn:hover,
 .ignite-btn:focus {
-	color: rgb(179, 94, 174) b3;
-	border: solid 1px rgb(179, 94, 174);
+	color: var(--main-color) b3;
+	border: solid 1px var(--main-color);
 }
 /* ==========================================================================
 Team
@@ -924,7 +928,7 @@ ul.social-buttons li:last-child {
 }
 .social-btn:hover,
 .social-btn:focus {
-	background: rgb(179, 94, 174);
+	background: var(--main-color);
 	color: #fff;
 }
 .social {
@@ -940,7 +944,7 @@ Contact
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-o-border-radius: 50%;
-	background: rgb(179, 94, 174);
+	background: var(--main-color);
 	display: block;
 	margin: 0 auto;
 	color: #fff;
@@ -957,7 +961,7 @@ Contact
 .up-btn:hover,
 up-btn:focus {
 	color: #fff;
-	background: rgb(179, 94, 174);
+	background: var(--main-color);
 }
 .contact-details {
 	margin: 70px 0;
@@ -967,7 +971,7 @@ up-btn:focus {
 }
 .contact-details h2 span {
 	display: block;
-	color: rgb(179, 94, 174);
+	color: var(--main-color);
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 14px;
