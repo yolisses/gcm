@@ -267,7 +267,7 @@ a.expand { display: block; position: absolute; z-index: 100; text-align: center;
 /* ==========================================================================
 Subscribe
 ========================================================================== */
-.subscribe { background: url('../img/keyboard-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0 140px; }
+.subscribe { background: url('https://images.unsplash.com/photo-1615526675651-91bdbee68170?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0 140px; }
 .subscribe h1 { color: #fff; margin-bottom: 40px; }
 .subscribe h1 span { display: block; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-top: 20px; letter-spacing: 1px; }
 .subscribe input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #fff; padding: 20px; width: 30%; color: #fff; }
@@ -276,7 +276,7 @@ Subscribe
 /* ==========================================================================
 CTA
 ========================================================================== */
-.ignite-cta { background-color: #242830; padding: 70px 0; }
+.ignite-cta { background-color: rgb(179, 94, 174); padding: 70px 0; }
 .ignite-btn { display: inline-block; padding: 25px 40px; color: #fff; border: solid 1px #fff; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
 .ignite-btn:hover, .ignite-btn:focus { color: rgb(179, 94, 174)b3; border: solid 1px rgb(179, 94, 174); }
 /* ==========================================================================
