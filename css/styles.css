@@ -891,16 +891,16 @@ CTA
 	display: inline-block;
 	padding: 25px 40px;
 	color: #fff;
-	border: solid 1px #fff;
+	/* border: solid 1px #fff; */
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 1px;
 }
-.ignite-btn:hover,
+/* .ignite-btn:hover,
 .ignite-btn:focus {
 	color: var(--main-color) b3;
 	border: solid 1px var(--main-color);
-}
+} */
 /* ==========================================================================
 Team
 ========================================================================== */
