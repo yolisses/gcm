@@ -1,4 +1,4 @@
-# TRITUM: página da empresa
+# TRITIUM: página da empresa
   
 Esse repositório consiste em uma página para uma empresa de software ficcional, construída no intuíito de avaliação acadêmica com as ferramentas Git e GitHub. 
 Apresenta os recursos modernos presentes em aplicações web: HTML, CSS e JavaScript, integrados com o uso do template [Halcyon Days](https://tympanus.net/codrops/2014/07/14/freebie-halcyon-days-one-page-website-template/),
